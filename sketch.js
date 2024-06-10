@@ -19,6 +19,7 @@ function setup() {
   video.hide();
   video.size(windowWidth, windowHeight);
   frameRate(10);
+  pixelDensity(1)
 }
 
 function videoReady() {
