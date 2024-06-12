@@ -32,7 +32,7 @@ function init() {
     let x = random(width);
     let y = random(height);
     let col = video.get(x, y);
-    if (random(50) > brightness(col)) {
+    if (random(100) > brightness(col)) {
       points.push(createVector(x, y));
     } else {
       i--;
