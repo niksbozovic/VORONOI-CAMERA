@@ -97,9 +97,9 @@ function draw() {
     for (let i = 0; i < points.length; i++) {
       let v = points[i];
       let index = (floor(v.x) + floor(v.y) * width) * 4;
-      let r = video.pixels[index + 0];
-      let g = video.pixels[index + 1];
-      let b = video.pixels[index + 2];
+      let r = video.pixels[index + 0]*2;
+      let g = video.pixels[index + 1]*2;
+      let b = video.pixels[index + 2]*2;
       stroke(r, g, b);
       strokeWeight(5);
       point(v.x, v.y);
