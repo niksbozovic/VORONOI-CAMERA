@@ -5,3 +5,13 @@ html, body {
 canvas {
   display: block;
 }
+
+.poema {
+  height: 25vh;
+  width: 20vh;
+  color: black;
+  font-family: "IBM Plex Mono";
+  font-size: 1vh;
+  position: fixed;
+  margin: 5vh 5vw 10vh 60vw;
+}
