@@ -12,6 +12,7 @@ canvas {
   color: black;
   font-family: "IBM Plex Mono";
   font-size: 1vh;
-  position: fixed;
+  position: absolute;
   margin: 5vh 5vw 10vh 60vw;
+  z-index: 100;
 }
