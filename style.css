@@ -7,6 +7,8 @@ canvas {
 }
 
 .poema {
+  top: 5vh;
+  left: 5vh;
   height: 25vh;
   width: 20vh;
   color: black;
