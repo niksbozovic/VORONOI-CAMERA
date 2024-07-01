@@ -28,7 +28,7 @@ function videoReady() {
 }
 
 function init() {
-  for (let i = 0; i < 100; i++) {
+  for (let i = 0; i < 500; i++) {
     let x = random(width);
     let y = random(height);
     let col = video.get(x, y);
